@@ -17,4 +17,4 @@ while cont:
         summation = sum()
         print(summation)
     else: 
-        continue
+        print("no")
