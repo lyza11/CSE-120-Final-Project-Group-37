@@ -26,3 +26,17 @@ def divide(x, y):
     if y == 0:
         return "Cannot divide by zero"
     return x / y
+
+def pythagorean_theorem():
+    print("What side are you missing? (1 - Hypotenuse, 2 - Leg)")
+    action = input(": ")
+    if action == "1":
+        adjacent = float(input("Enter the Adjacent side: "))
+        opposite = float(input("Enter the Opposite side: "))
+        return (adjacent * adjacent) + (opposite * opposite)
+    elif action == "2":
+        hypotenuse = float(input("Enter the Hypotenuse: "))
+        leg = float(input("Enter the Leg: "))
+        return math.sqrt((hypotenuse*hypotenuse) - (leg*leg)) 
+    else:
+        print("Invalid input. Please try again.")
