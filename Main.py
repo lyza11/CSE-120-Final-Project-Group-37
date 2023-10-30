@@ -5,7 +5,7 @@ while True:
     user_input = input(": ")
     if user_input == "6":
         break
-    elif user_input in ["1", "2", "3", "4", "5", "6"]:
+    elif user_input in ["1", "2", "3", "4"]:
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
