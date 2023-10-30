@@ -21,3 +21,19 @@ while True:
         print()
     else:
         print("Invalid input. Please try again.")
+
+    if user_input == "5":
+        specialFunctionsMenu()
+        special_user_input = input(": ")
+        if special_user_input == "1":
+            print(pythagorean_theorem())
+        elif special_user_input == "2":
+            pass
+        elif special_user_input == "3":
+            pass
+        elif special_user_input == "4":
+            pass
+        elif special_user_input == "5":
+            pass
+        else:
+            print("Invalid input. Please try again.")
