@@ -1,4 +1,4 @@
-from functions import menu, add, subtract, multiply, divide
+from functions import menu, specialFunctionsMenu, add, subtract, multiply, divide, pythagorean_theorem
 
 while True:
     menu()
