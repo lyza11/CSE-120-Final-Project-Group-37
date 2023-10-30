@@ -1,3 +1,4 @@
+import math
 # Function for the menu
 def menu():
     print("Options:")
