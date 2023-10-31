@@ -1,4 +1,4 @@
-from functions import menu, specialFunctionsMenu, add, subtract, multiply, divide, pythagorean_theorem
+from functions import menu, special_functions_menu, add, subtract, multiply, divide, pythagorean_theorem
 
 while True:
     menu()
@@ -23,7 +23,7 @@ while True:
         print("Invalid input. Please try again.")
 
     if user_input == "5":
-        specialFunctionsMenu()
+        special_functions_menu()
         special_user_input = input(": ")
         if special_user_input == "1":
             print(pythagorean_theorem())
