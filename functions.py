@@ -10,6 +10,13 @@ def menu():
     print('6 - quit')
     print()
 
+def specialFunctionsMenu():
+    print("Options:")
+    print('1 - pythagorean theorem')
+    print('2 - derivatives')
+    print('3 - factorization')
+    print('4 - quadratic formula')
+    print('5 - ')
 # Function to perform addition
 def add(x, y):
     return x + y
