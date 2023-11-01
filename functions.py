@@ -41,7 +41,7 @@ def pythagorean_theorem():
     if action == "1":
         adjacent = float(input("Enter the Adjacent side: "))
         opposite = float(input("Enter the Opposite side: "))
-        return (adjacent * adjacent) + (opposite * opposite)
+        return math.sqrt((adjacent * adjacent) + (opposite * opposite))
     elif action == "2":
         hypotenuse = float(input("Enter the Hypotenuse: "))
         leg = float(input("Enter the Leg: "))
