@@ -48,3 +48,18 @@ def pythagorean_theorem():
         return math.sqrt((hypotenuse*hypotenuse) - (leg*leg)) 
     else:
         print("Invalid input. Please try again.")
+
+def quadratic_formula():
+    a = float(input("Enter the first value: "))
+    b = float(input("Enter the second value: "))
+    c = float(input("Enter the third value: "))
+    discriminant = b * b -4 * a * c
+    if discriminant > 0:
+        x1 = (-b + math.sqrt(discriminant)) / (2 * a)
+        x2 = (-b - math.sqrt(discriminant)) / (2 * a)
+        print("x is equal to", x1, "and", x2)
+    elif discriminant == 0:
+        x1 = -b / (2 * a)
+        print("x is only equal to", x1)
+    else:
+        print("there is no real root")
