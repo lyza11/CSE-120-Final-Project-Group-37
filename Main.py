@@ -32,7 +32,7 @@ while True:
         elif special_user_input == "3":
             pass
         elif special_user_input == "4":
-            pass
+            print(quadratic_formula())
         elif special_user_input == "5":
             pass
         else:
