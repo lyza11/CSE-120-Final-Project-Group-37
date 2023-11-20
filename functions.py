@@ -1,4 +1,7 @@
 import math
+from sympy import *
+import numpy as np
+
 # Function for the menu
 def menu():
     print("Options:")
