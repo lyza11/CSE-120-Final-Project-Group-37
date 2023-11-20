@@ -35,6 +35,10 @@ def divide(x, y):
         return "Cannot divide by zero"
     return x / y
 
+def sqrt_root():
+    num = float(input("Enter number: "))
+    return math.sqrt(num)
+
 def pythagorean_theorem():
     print("What side are you missing? (1 - Hypotenuse, 2 - Leg)")
     action = input(": ")
