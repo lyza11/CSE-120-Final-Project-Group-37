@@ -3,7 +3,7 @@ from functions import *
 while True:
     menu()
     user_input = input(": ")
-    if user_input == "6":
+    if user_input == "7":
         break
     elif user_input in ["1", "2", "3", "4"]:
         num1 = float(input("Enter first number: "))
@@ -19,21 +19,25 @@ while True:
             result = divide(num1, num2)
         print("Result: " + str(result))
         print()
+
+    elif user_input == "5":
+        print(sqrt_root())
+        print()
     else:
-        print("Invalid input. Please try again.")
+        pass
     
-    if user_input == "5":
+    if user_input == "6" :
         specialFunctionsMenu()
         special_user_input = input(": ")
         if special_user_input == "1":
             print(pythagorean_theorem())
         elif special_user_input == "2":
+            # print(derivatives())
             pass
         elif special_user_input == "3":
+            # print(factorization())
             pass
         elif special_user_input == "4":
             print(quadratic_formula())
-        elif special_user_input == "5":
-            pass
         else:
             print("Invalid input. Please try again.")
