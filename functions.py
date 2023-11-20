@@ -6,9 +6,9 @@ def menu():
     print('2 - subtract')
     print('3 - multiply')
     print('4 - divide')
-    print('5 - special functions')
-    print('6 - quit')
-    print()
+    print('5 - square root')
+    print('6 - special functions')
+    print('7 - quit')
 
 def specialFunctionsMenu():
     print("Options:")
